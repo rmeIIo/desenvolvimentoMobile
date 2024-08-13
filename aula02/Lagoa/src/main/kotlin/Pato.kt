@@ -3,7 +3,7 @@ open class Pato(var voo: Voar) {
         this.voo.executaVoo()
     }
 
-    fun mudarEstiloDeVoo(novoVoo : Voar) {
+    open fun mudarEstiloDeVoo(novoVoo : Voar) {
         this.voo = novoVoo
     }
 
