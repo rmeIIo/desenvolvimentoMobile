@@ -7,8 +7,4 @@ open class Pato(var voar: Voar) {
     fun mudarEstiloDeVoo(novoVoo: Voar) {
         this.voar = novoVoo
     }
-
-    fun fazerQuack() {
-        println("Quack!")
-    }
 }
